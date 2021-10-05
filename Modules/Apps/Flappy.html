@@ -1,0 +1,54 @@
+<span>
+    <button onclick="fetchHtml('Apps')">Back</button>
+    <header>&nbsp;Roll Ball by <a id="flappyA" href="https://github.com/Sudhee-bsp">Sudhindra</a></header>
+</span>
+
+<div id="body">
+  <canvas id="canvas"></canvas>
+
+  <p id="flappyPara">
+    Use the left, right and up arrow keys to move.
+  </p>
+  <p class="info" id="flappyPara">
+    Be careful with falling into Red area.
+  </p>
+  <br>
+
+</div>
+
+
+<style>
+   * {
+  margin: 0;
+  padding: 0;
+    }
+
+    #canvas {
+      display:block;
+      margin: 2.5rem auto 1.25rem;
+      border: 0.05rem solid #333;
+      box-shadow: 0 0 1rem 0.125rem rgba(0,0,0,0.8);
+      width: 70%;
+    }
+    #flappyPara {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1.12rem;
+      color: #777;
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+      text-decoration:none;
+    }
+
+    .info {
+      margin:14px auto;
+      text-align: justify;
+      font-size: 0.85rem;
+      color: #999;
+    }
+
+    #flappyA {
+      color:#3377ee;
+    }
+</style>
